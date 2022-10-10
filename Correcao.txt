@@ -1,0 +1,12 @@
+1.Selecao de empresa de compra estava em desordem, linha 134 Corrigido.
+2.Selecao de produtos de compra estava em desordem, linha 142 Corrigido.
+3. a comparacao de igualdade de id (integer) dentro da lambda estava utilizando o metodo equals, foi substituido pelo operador ==. linha 162 Corrigido
+4. adicao de while true, para quando um usuario terminar uma acao voltar para o menu inicial, e remocao da chamada executar dos switch compra efetuadas e realizar compra,saldo Empresa, Meus produtos, linha 64.
+5. todos os switch cases foram alterados para arrow switch case, pois estavam sem condicao break;
+6. alteracao para que o admin possa ver todas as vendas efetuadas de todas as lojas, foi criada uma ordenacao e um print de saldo das empresas, linha 80, linha 105
+7. correcao no saldo da empresa, subtracao da comissao no saldo da empresa, linha 237.
+8.adicao de um informativo de quantidade desponivel do produto, linha 163
+9.modificacao para permirir somente produto com estoque maior que 0. linha 169
+10. implementacao de um atualizador de estoque, linha 238
+11. adicao de um continue caso o cliente nao tenha comprado nada. linha 185
+
